@@ -43,7 +43,7 @@ public class MyBinarySearch {
             //step 6
             else if(searchElement < arr[mid]){
                 //step 7  - recursive call
-                //checking lower half of arry for search element
+                //checking lower half of array for search element
                return binarySearch(searchElement, low, mid -1 );
             }
             //step 8
